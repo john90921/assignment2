@@ -71,7 +71,6 @@
             <select name="birthday" class="form-select">
               <option value="all" {{ request('birthday') == 'all' ? 'selected' : '' }}>All</option>
               <option value="after2000" {{ request('birthday') == 'after2000' ? 'selected' : '' }}>Born After 2000</option>
-              <option value="before2000" {{ request('birthday') == 'before2000' ? 'selected' : '' }}>Born Before 2000</option>
             </select>
           </div>
 
